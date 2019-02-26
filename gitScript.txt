@@ -1,4 +1,4 @@
 git add -A
-git commit -m"Adding autopush"
+git commit -m"Exercise 2"
 git push origin master
 git status 

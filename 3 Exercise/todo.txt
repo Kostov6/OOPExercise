@@ -1,0 +1,30 @@
+﻿1.Напишете основните функции:
+-Rat multiply(Rat A,Rat B)
+-Rat subtract(Rat A,Rat B)
+-Rat add(Rat A,Rat B)
+-Rat divide(Rat A,Rat B)
+
+2.Вкарайте ги в Rat struct-a
+
+2.1 Constructors
+2.2 Getters and setters
+
+3.Напишете print(), ако е n/1 принтим n
+
+4.Напишете функцията simplify() която съркратява дробите
+4.1 В private скопа
+
+
+5.Тествайте:
+1/2 + 2/6 = 5/6
+6/4 - 2/4 = 1
+2/8 * 2/1 = 1/2
+3/6 / 3/9 = 3/2
+
+5/6 -> 5/7 ( setZn(7) )
+1/1 -> 3 ( setCh(3) )
+1/2 -> 1 ( setCh(2) )
+3/2 -> 2/3 ( setZn(9) , setCh(2) )
+
+------------------------------------
+
