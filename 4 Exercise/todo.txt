@@ -1,0 +1,27 @@
+class Point2D
+-constructors(def (0,0)),getters/setters
+-translateTo(int,int)
+-lineLength(Point2D B)
+-print | (x,y)
+
+Triangle
+-constructors(def (0,0),(0,0),(0,0)),getters/setters
+-calculatePerimeter const
+-calculateArea const
+-print | (x1,y1) (x2,y2) (x3,y3)
+
+(1,1) (-1,-1) (-1,1)
+P=6.8284
+S=2
+--------------------------------
+
+class Person
+-first name,last name
+-EGN
+-constructors,getters,setters
+-compareWith(Person) lexicographic compare (strcmp from string.h/string)
+-print
+-destructor
+
+...class Family
+
