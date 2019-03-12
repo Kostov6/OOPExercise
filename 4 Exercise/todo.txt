@@ -1,6 +1,6 @@
 class Point2D
 -constructors(def (0,0)),getters/setters
--translateTo(int,int)
+-translateTo(Point2D B)
 -lineLength(Point2D B)
 -print | (x,y)
 
@@ -8,7 +8,7 @@ Triangle
 -constructors(def (0,0),(0,0),(0,0)),getters/setters
 -calculatePerimeter const
 -calculateArea const
--print | (x1,y1) (x2,y2) (x3,y3)
+-print | (x1,y1) (x2,y2) (x3,y3) const
 
 (1,1) (-1,-1) (-1,1)
 P=6.8284
@@ -22,6 +22,11 @@ class Person
 -compareWith(Person) lexicographic compare (strcmp from string.h/string)
 -print
 -destructor
+
+Point2D * 
+const Point2D * | read only and can change pointer
+Point2D * const = Point& | read/write but can not change pointed location
+const Point2D * const = const Point& | read only and can not change pointed location
 
 ...class Family
 
