@@ -1,6 +1,7 @@
 ﻿copy constructor/assignment op for Person
 
 show object lifecycle // defC,copyC,cOp,dtr
+(copyC,cOp,dtr are only necessary when having pointers as arguments)
 
 class Group
 -default constructor(16) | (n)
