@@ -16,9 +16,12 @@ S=2
 --------------------------------
 
 class Person
--first name,last name
--EGN
+-first name=" ",last name=" "
+-EGN(0)
+-FN(0)
+-group(0)
 -constructors,getters,setters
+
 -compareWith(Person) lexicographic compare (strcmp from string.h/string)
 -print
 -destructor
