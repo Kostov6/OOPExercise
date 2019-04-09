@@ -2,8 +2,8 @@
 class Person
 {
 private:
-	char* name;
-	char* familyName;
+	char* name=nullptr;
+	char* familyName=nullptr;
 
 	long long EGN;
 	int fN;
