@@ -1,4 +1,4 @@
 git add -A
-git commit -m"Exercise 7"
+git commit -m"Exercise 8 and 9"
 git push origin master
 git status 
